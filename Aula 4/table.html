@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listas</title>
+</head>
+<style>
+  table,
+  th,
+  td
+  { 
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+  tr:hover{
+    background-color: floralwhite;
+  }
+  /* even pares odd impares 
+   tbody tr:nth-child(odd){ 
+     background-color: aquamarine; 
+   } */
+</style>
+<body>
+
+
+  <h2>Tabelas</h2>
+  <table>
+    <colgroup>
+      <col span="2" style="background-color: greenyellow;">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Sobrenome</th>
+        <th>Idade</th>
+        <th>rua</th>
+        <th>sangue</th>
+        <th>Id</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="width: 300px;">Djonatan</td>
+        <td>Weber</td>
+        <td>28</td>
+        <td>avenida</td>
+        <td>0+</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td colspan="1">João</td>
+        <td>Silva</td>
+        <td>1000</td>
+        <td>avenida</td>
+        <td>0+</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td rowspan="1" colspan="2">João</td>
+        
+        <td>1000</td>
+        <td>avenida</td>
+        <td>0+</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td rowspan="2" colspan="2">João</td>
+        <td>1000</td>
+        <td>avenida</td>
+        <td>0+</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>1000</td>
+        <td>avenida</td>
+        <td>0+</td>
+        <td>1</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Rodapé</td>
+        
+        <td>1028</td>
+      </tr>
+      
+    </tfoot>
+  </table>
+
+
+
+</body>
+
+</html>
