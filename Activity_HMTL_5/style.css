@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(253, 255, 127);
+}
+pre {
+  color: blue;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: rgb(226, 43, 43);
+}
+strong {
+  color: chartreuse;
+}
+mark {
+  background-color: rgb(253, 255, 200);
+}
+a {
+  color: orange;
+  text-decoration: none;
+}
+a:hover {
+  color: aqua;
+}
+a:visited {
+  color: paleturquoise;
+}
+table {
+  border-style: dashed;
+  border-color: blue;
+  width: 30vw;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid black; /* Cor e espessura das bordas das células */
+  padding: 1px;
+}
+caption {
+  border-bottom: 3px dashed blue;
+  font-weight: bold;
+}
+thead {
+  background-color: #f2f;
+  color: white; 
+}
+dl {
+  border: 2px solid black;
+  padding: 10px;
+  width: fit-content;
+}
+ol {
+  list-style-type: upper-alpha;
+}
+ul {
+  list-style-type: square;
+}
+tbody tr:nth-child(even) {
+  background-color: #c50f4c;
+}
+iframe {
+  width: 300px; 
+  height: 200px; 
+  border: 2px solid rgb(13, 226, 13); 
+}
