@@ -1,0 +1,31 @@
+p {
+  color: green;
+  font-family: sans-serif;
+  font-size: 25px;
+  background-color: aquamarine;
+}
+
+.title {
+  color: red;
+  font-family: sans-serif;
+  font-size: 25px;
+  background-color: rgb(146, 127, 255);
+}
+
+#paragrafo {
+  color: yellow;
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: rgb(255, 127, 170);
+}
+
+a:hover {
+  color: red;
+}
+
+
+/* HEXADECIMAL 
+#FFFFFF
+#FFF
+#000
+#F00*/
