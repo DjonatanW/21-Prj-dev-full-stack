@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li a{
+  display: inline-block;
+  margin: 10px 5px;
+  /* text-align: center; */
+}
+.menu ul li a{
+  text-decoration: none;
+}
