@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body-first {
+  margin: 10px;
+  height: 100%;
+  background-color: #ccc; /* Cor do fundo cinza */
+}
+.blue-square,
+.red-square,
+.black-square,
+.green-square,
+.yellow-square {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.gray {
+  height: 100%;
+  width: 100%;
+}
+
+.blue-square {
+  background-color: blue;
+  height: 97%;
+  width: 60%;
+}
+.red-square {
+  background-color: red;
+  height: 80%;
+  width: 80%;
+}
+.black-square {
+  background-color: black;
+  height: 80%;
+  width: 80%;
+}
+.green-square {
+  background-color: green;
+  height: 60%;
+  width: 60%;
+}
+.yellow-square {
+  background-color: yellow;
+  height: 50%;
+  width: 50%;
+}
+
+/* SECOND ACTIVITY */
+
+#body-second {
+  height: 100%;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #ccc;
+}
+
+.left-top,
+.right-top,
+.left-down,
+.right-down {
+  background-color: black;
+  width: 20%;
+  height: 35%;
+  position: absolute;
+}
+
+.left-top {
+  top: 0;
+  left: 0;
+}
+
+.right-top {
+  top: 0;
+  right: 0;
+}
+
+.left-down {
+  bottom: 0;
+  left: 0;
+}
+
+.right-down {
+  bottom: 0;
+  right: 0;
+}
+
+/* THIRD ACTIVITY */
+.body-third {
+  margin: 40px 40px;
+}
+
+.top-text,
+.back-text {
+  width: 100%;
+  padding: 20px;
+  margin: 20px 0px;
+  font-family: Arial, sans-serif;
+}
+
+.top-text {
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: right;
+  border-radius: 20px;
+}
+
+.back-text {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #f00;
+  text-transform: lowercase;
+  overflow: scroll;
+  padding: 20px;
+  height: 200px;
+}
+
+/* FOUR ACTIVITY */
+.body-four {
+}
+.first-square,
+.second-square,
+.third-square,
+.fourth-square,
+.fifth-square,
+.sixth-square-top,
+.sixth-square,
+.seventh-square,
+.eighth-square,
+.ninth-square,
+.tenth-square,
+.eleventh-square,
+.twelth-square {
+  background-color: black;
+  width: 15%;
+  height: 20%;
+  position: absolute;
+}
+
+.first-square {
+  top: 0;
+  left: 0;
+}
+
+ .second-square {
+  top: 21%;
+  left: 0;
+}
+
+
+.third-square {
+  top: 0%;
+  left: 16%;
+}
+
+.fourth-square {
+  top: 21%;
+  left: 16%;
+}
+
+.fifth-square {
+  top: 0%;
+  left: 32%;
+}
+
+.sixth-square-top {
+  top: 42%;
+  left: 0%;
+}
+
+.sixth-square {
+  bottom: 42%;
+  right: 0%;
+}
+.seventh-square {
+  bottom: 0%;
+  right: 32%;
+}
+.eighth-square {
+  bottom: 21%;
+  right: 16%;
+}
+.ninth-square {
+  bottom: 0%;
+  right: 16%;
+}
+
+.tenth-square {
+  bottom: 0;
+  right: 16%;
+}
+.eleventh-square {
+  bottom: 21%;
+  right: 0;
+}
+.twelth-square {
+  bottom: 0;
+  right: 0;
+} 
