@@ -1,5 +1,5 @@
 # 📝Currículo Djonatan
-
+Esse é um projeto de currículo profissional utilizando HTML e CSS, que destaque as principais informações de forma visualmente atraente.
 ## 🎨 Layout das opções
 
 ![Sobre](https://github.com/user-attachments/assets/c39244aa-3c09-4dd4-904d-6e039e5b5517)
